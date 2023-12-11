@@ -1,15 +1,15 @@
 {
-  "name": "mern-music",
+  "name": "app-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "beck end application  using express mongoose and typescript",
+  "main": "index.ts",
   "scripts": {
     "server": "nodemon ./backend/index.ts",
     "client": "npm run  dev --prefix client",
     "dev": "concurrently \"npm run client\" \"npm run server"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["MERN typescript react express mongoose"],
+  "author": "Tewodros Birhanu",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -26,7 +26,6 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^8.0.3",
-    "morgan": "^1.10.0",
-    "spotify-web-api-node": "^5.0.2"
+    "morgan": "^1.10.0"
   }
 }
